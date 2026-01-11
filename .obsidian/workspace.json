@@ -168,16 +168,27 @@
               "icon": "lucide-list",
               "title": "嵌入式中的设计模式 的大纲"
             }
+          },
+          {
+            "id": "d359fd5c5cebed3c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -187,8 +198,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "71bd71aa485dadb0",
+  "active": "d359fd5c5cebed3c",
   "lastOpenFiles": [
+    "Obsidian 文件类型说明.md",
     "新建 文本文档.json",
     "新建 文本文档.txt",
     "AI/claude功能选项介绍.md",
