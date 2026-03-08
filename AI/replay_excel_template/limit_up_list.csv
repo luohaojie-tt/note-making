@@ -1,0 +1,3 @@
+trade_date,symbol,name,board_height,seal_time,seal_amount,seal_ratio,theme,is_leader,open_board_count,reseal_count
+2026-03-07,600000,示例股份,3,10:12:31,240000000,1.8,算力,true,1,1
+

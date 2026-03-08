@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"obsidian_skills_main","type":"text","x":300,"y":0,"width":400,"height":120,"color":"5","text":"# 🎯 Obsidian Skills\n\n官方技能集，由 Obsidian CEO (kepano) 开发\n5 个核心技能，增强 Obsidian 体验"},
+		{"id":"skill_markdown","type":"text","x":-200,"y":200,"width":300,"height":250,"color":"4","text":"## 📝 obsidian-markdown\n\n创建和编辑 Obsidian 风格 Markdown\n\n**功能：**\n- Wikilinks `[[笔记]]`\n- Embeds `![[图片]]`\n- Callouts `> [!note]`\n- Frontmatter (YAML)\n- 标签 `#tag`\n- 高亮 `==文字==`"},
+		{"id":"skill_canvas","type":"text","x":150,"y":200,"width":300,"height":200,"color":"3","text":"## 🎨 json-canvas\n\n创建和编辑 Canvas 画布文件\n\n**节点类型：**\n- text (文本卡片)\n- file (文件链接)\n- link (网页链接)\n- group (分组)"},
+		{"id":"skill_bases","type":"text","x":500,"y":200,"width":300,"height":200,"color":"6","text":"## 📊 obsidian-bases\n\nObsidian 1.9+ 原生数据库\n\n**功能：**\n- Views (视图)\n- Filters (过滤器)\n- Formulas (公式)"},
+		{"id":"skill_cli","type":"text","x":0,"y":500,"width":300,"height":180,"color":"2","text":"## 💻 obsidian-cli\n\n命令行交互工具\n\n**功能：**\n- 读取/创建/搜索笔记\n- 管理属性和任务\n- 插件开发调试"},
+		{"id":"skill_defuddle","type":"text","x":350,"y":500,"width":300,"height":180,"color":"1","text":"## 🌐 defuddle\n\n网页内容提取工具\n\n**功能：**\n- 提取网页 Markdown\n- 移除杂乱内容\n- 节省 tokens"}
+	],
+	"edges":[
+		{"id":"edge_main_markdown","fromNode":"obsidian_skills_main","fromSide":"left","toNode":"skill_markdown","toSide":"top","color":"4"},
+		{"id":"edge_main_canvas","fromNode":"obsidian_skills_main","fromSide":"bottom","toNode":"skill_canvas","toSide":"top","color":"3"},
+		{"id":"edge_main_bases","fromNode":"obsidian_skills_main","fromSide":"right","toNode":"skill_bases","toSide":"top","color":"6"},
+		{"id":"edge_main_cli","fromNode":"skill_markdown","fromSide":"bottom","toNode":"skill_cli","toSide":"top","color":"2"},
+		{"id":"edge_main_defuddle","fromNode":"skill_bases","fromSide":"bottom","toNode":"skill_defuddle","toSide":"top","color":"1"}
+	]
+}

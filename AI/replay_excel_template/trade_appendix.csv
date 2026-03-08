@@ -1,0 +1,3 @@
+trade_date,symbol,name,entry_time,exit_time,entry_price,exit_price,pnl_pct,holding_days,strategy_tag
+2026-03-07,600000,示例股份,10:13:00,09:32:00,12.35,12.88,4.29,1,打板
+
